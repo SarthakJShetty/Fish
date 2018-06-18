@@ -1,4 +1,3 @@
-
 # Open Source Robotic Fish
 This repository is dedicated to the developement of the predatory robotic fish, developed at the [Theoretical Ecology and Evolution Laboratory](https://teelabiisc.wordpress.com/), [Indian Institute of Science](https://www.iisc.ac.in).
 
@@ -21,6 +20,8 @@ The robotic fish developed was used to study the aggregation and swarming charac
 - A pair of [9V batteries](https://www.amazon.com/AmazonBasics-Everyday-Alkaline-Batteries-8-Pack/dp/B00MH4QM1S) were used in series to provide the necessary electric power for the operation of the fish.
 
 ### Fritzing Diagram:
+
+<img src="https://bitbucket.org/SarthakJShetty/fish/raw/bb4f6f4529ad80b42fe88c2d7c0ff229d1147c28/Images/Fish_Circuitry.jpg">
 
 ### Working:
 1. The electrical connections are made as shown in the Fritzing diagram.
