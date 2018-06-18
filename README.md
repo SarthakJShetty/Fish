@@ -42,8 +42,8 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 ### Known Issues:
 
-- Occasionally, the Bluetooth module on-board losses communication link with the Bluetooth on the PC. When this happens, close the pygame dialog and rerun the Joystick_Code.py script to establish control once again (<strong>this issue has now been resolved by connecting the Bluetooth Module</strong>).
+- Occasionally, the Bluetooth module on-board losses communication link with the Bluetooth on the PC. When this happens, close the pygame dialog and rerun the Joystick_Code.py script to establish control once again (**this issue has now been resolved by connecting the Bluetooth Module**).
 
 - The Arduino will reboot, if sufficient power is not provided. Thus, we suggest the use of LiPo batteries to provide a more reliable and lasting power source.
 
-- Communication link between the UNO and the computer will not be active until the EEPROM_Flush_Code has been executed, thereafter which the LED on the UNO associated with GPIO pin 13 will glow.
+- Communication link between the UNO and the computer will not be active until the `EEPROM_Flush_Code` has been executed (approx 5 seconds), thereafter which the LED on the UNO associated with GPIO pin 13 will glow a bright orange (depending on the model).
