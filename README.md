@@ -29,13 +29,13 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 3. The SHARP sensors are obstructed to check if the necessary commands are executed (in this case the C_MOVE() function would be executed).
 
-4. Once the [Joystick.py](https://bitbucket.org/SarthakJShetty/Fish/Code/Joystick_Code/Joystick_Code.py) has been executed, wait for 5 seconds as the [EEPROM_Code.cpp](https://bitbucket.org/SarthakJShetty/Fish/Code/EEPROM_Flush_Code) script executes and flushes the EEPROM on-board the UNO to prevent interferences from previous stored values.
+4. Once the [Joystick.py](https://bitbucket.org/SarthakJShetty/fish/src/master/Code/Joystick_Code/Joystick_Code.py) has been executed, wait for 5 seconds as the [EEPROM_Code.cpp](https://bitbucket.org/SarthakJShetty/Fish/src/master/Code/EEPROM_Flush_Code) script executes and flushes the EEPROM on-board the UNO to prevent interferences from previous stored values.
 
 5. The Fish can be maneuvered as required using the left analog stick of the joystick. Three movements are possible:
-	- [Forward](https://bitbucket.org/SarthakJShetty/Fish/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in an S-type movement 
-	- [Left](https://bitbucket.org/SarthakJShetty/Fish/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left.
-	- [Right](https://bitbucket.org/SarthakJShetty/Fish/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the right.
-	- [Obstacle Avoidance](https://bitbucket.org/SarthakJShetty/Fish/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left. 
+	- [Forward](https://bitbucket.org/SarthakJShetty/Fish/src/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in an S-type movement 
+	- [Left](https://bitbucket.org/SarthakJShetty/Fish/src/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left.
+	- [Right](https://bitbucket.org/SarthakJShetty/Fish/src/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the right.
+	- [Obstacle Avoidance](https://bitbucket.org/SarthakJShetty/Fish/src/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left. 
 
 6. The Fish operates either through the controls of the user, through the joystick, or it continuously moves in an S-type fashion, until it encounters an obstacle, thereafter which it executes a C-type movement.
 
