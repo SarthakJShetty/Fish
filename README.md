@@ -21,7 +21,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 ### Fritzing Diagram:
 
-![Fritzing Diagram](https://bitbucket.org/SarthakJShetty/fish/raw/bb4f6f4529ad80b42fe88c2d7c0ff229d1147c28/Images/Fish_Circuitry.jpg "Fritzing Diagram")
+![Fritzing Diagram](https://bitbucket.org/SarthakJShetty/fish/raw/14ef19920b8d4cfb0a632ad71904f845717359cf/Design%20Files/Circuit_Design/Fish_Circuitry.jpg "Fritzing Diagram")
 
 ### Working:
 1. The electrical connections are made as shown in the Fritzing diagram.
