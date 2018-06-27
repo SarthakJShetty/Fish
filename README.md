@@ -23,7 +23,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 ![Fritzing Diagram](https://bitbucket.org/SarthakJShetty/fish/raw/ada7159803a4ecbdcf5e93b809aca2a6bb8a4bb4/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.jpg "Fritzing Diagram")
 
-### Diagramatic Representation:
+### SolidWorks Model:
 
 ![SolidWorks Model Diagram](https://bitbucket.org/SarthakJShetty/fish/raw/59a587fcd74f34fa84f2f81cb9e03ceb40a7eb4d/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png "Solidworks Diagram")
 
