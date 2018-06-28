@@ -5,9 +5,9 @@ This repository is dedicated to the developement of the predatory robotic fish, 
 The robotic fish developed was used to study the aggregation and swarming characteristics of the Serpae tetra species of fish.
 
 ### Construction:
-- The body of the Fish is made of extruded polystyrene. The [design](https://bitbucket.org/Fish) was made in SolidWorks, and carved using a crafting blade.
+- The body of the Fish is made of extruded polystyrene. The [design](https://bitbucket.org/SarthakJShetty/fish/src/master/Design%20Files/Mechanical_Design/Fish_Design/) was made in SolidWorks, and carved using a crafting blade.
 
-- The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org) library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html).
+- The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org) library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html). We have tried out a number of joysticks, such as the [Xbox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro).
 
 - The Fish is controlled through an Arduino UNO, which communicates with the computer running pygame through a Bluetooth module, mounted on it's head.
 
@@ -48,6 +48,6 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 1. Occasionally, the Bluetooth module on-board losses communication link with the Bluetooth on the PC. When this happens, close the pygame dialog and rerun the Joystick_Code.py script to establish control once again (**this issue has now been resolved by connecting the Bluetooth module to a 3.3V voltage supply**).
 
-2. The Arduino will reboot, if sufficient power is not provided. Thus, we suggest the use of LiPo batteries to provide a more reliable and lasting power source.
+2. The Arduino will reboot, if sufficient power is not provided. Thus, we suggest the use of LiPo batteries to provide a more reliable and lasting power source. We are currently using 12V, 2000mAh LiPo batteries.
 
-3. Communication link between the UNO and the computer will not be active until the `EEPROM_Flush_Code` has been executed (approx 5 seconds), thereafter which the LED on the UNO associated with GPIO pin 13 will glow a bright orange (depending on the model).
+3. Communication link between the UNO and the computer will not be active until the `EEPROM_Flush_Code.cpp` has been executed (approx 5 seconds), thereafter which the LED on the UNO associated with GPIO pin 13 will glow a bright orange (depending on the make of the Arduino board).
