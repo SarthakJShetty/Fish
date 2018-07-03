@@ -35,15 +35,66 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 3. The SHARP sensors are obstructed to check if the necessary commands are executed (in this case the ```C_MOVE()``` function would be executed).
 
-4. Once the [Joystick.py](https://github.com/SarthakJShetty/fish/tree/master/Code/Joystick_Code/Joystick_Code.py) has been executed, wait for 5 seconds as the [EEPROM_Code.cpp](https://github.com/SarthakJShetty/Fish/tree/master/Code/EEPROM_Flush_Code) script executes and flushes the EEPROM on-board the UNO to prevent interferences from previous stored values.
+4. Once the [Joystick.py](https://github.com/SarthakJShetty/fish/tree/master/Code/Joystick_Code/Joystick_Code.py) has been executed, wait for 5 seconds as the [EEPROM_Code.cpp](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/EEPROM_Flush_Code.cpp) script executes and flushes the EEPROM on-board the UNO to prevent interferences from previous stored values.
 
 5. The Fish can be maneuvered as required using the left analog stick of the joystick. Three movements are possible:
-	- [Forward](https://github.com/SarthakJShetty/Fish/tree/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in an S-type movement 
-	- [Left](https://github.com/SarthakJShetty/Fish/tree/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left.
-	- [Right](https://github.com/SarthakJShetty/Fish/tree/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the right.
-	- [Obstacle Avoidance](https://github.com/SarthakJShetty/Fish/tree/master/Code/Stable_Movement_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left. 
+	- [Forward](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in an S-type movement 
+	- [Left](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left.
+	- [Right](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the right.
+	- [Obstacle Avoidance](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left. 
 
 6. The Fish operates either through the controls of the user, through the joystick, or it continuously moves in an S-type fashion, until it encounters an obstacle, thereafter which it executes a C-type movement.
+
+### Progress Log:
+
+- <strong>Date:</strong> 28/05/2018
+	- Just wrote code.
+	- Yet to implement on Arduino.
+ 	- Will be doing that tomorrow.
+ 	- Need to add a README.
+
+- <strong>Date:</strong> 29/05/2018
+ 	- Code now works with sensor.
+ 	- Added a piece of code to convert volts to distance.
+
+- <strong>Date:</strong> 60/05/2018
+ 	- Up<strong>dated</strong> Bluetooth Code.
+ 	- Bluetooth now works over COM4 port.
+ 	- ```println()``` statements look much cleaner now
+
+- <strong>Date:</strong> 31/05/2018
+ 	- Added EEPROM flush. Not much of an improvement.
+ 	- Bluetooth has not been integrated here.
+	- Bluetooth code has been introduced, albeit very buggy as of now.
+
+- <strong>Date:</strong> 08/05/2018
+ 	- Joystick can be used to control the fish now. Attempting on a wired controller though.
+ 	- Intereference. Need to upload a SLAVE communication.
+
+- <strong>Date:</strong> 09/06/2018
+ 	- DualShock3 replaced with Xbox 360 Wireless knockoff controller.
+ 	- Works much better now.
+ 	- SLAVE protocol has been established. Works much better.
+
+- <strong>Date:</strong> 10/06/2018
+ 	- BLuetooth module has been converted into a one-way system, i.e. slave communication
+ 	- RX/TX can be connected simultaneously, no obstruction to communication from controller.
+
+- <strong>Date:</strong> 13/06/2018
+ 	- Code has been successfully tested on fish.
+ 	- This code has been converted into a .cpp libray, to make the Arduino code cleaner.
+
+- <strong>Date:</strong> 15/06/2018
+ 	- The thermocol has ripped. Adhesive applied and trying to fix it.
+ 	- Code seems to be working well. Angles seem to be too big though.
+
+
+- <strong>Date:</strong> 03/07/2018
+	- Embargo due to mechanical issues.
+	- A polythene wrapper has been used as a final layer for waterproofing the structure.
+	- The issue is with fit. Almost fixed it.
+	- Should have a great Fish by this weekend. Fingers crossed.
+	-Try to code a more harmonic motion of Fish body.
 
 ### Known Issues:
 
