@@ -23,6 +23,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 ### Fritzing Diagram:
 <img style="border: 2px solid black" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">
+<figcaption><strong><em>Note:</strong> 3.7V LiPo is for representation purposes only.</em></figcaption>
 
 ### SolidWorks Model:
 <img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png" alt="SolidWorks Model">
