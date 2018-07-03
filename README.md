@@ -1,6 +1,8 @@
 # Open Source Robotic Fish
 This repository is dedicated to the developement of the predatory robotic fish, developed at the [Theoretical Ecology and Evolution Laboratory](https://teelabiisc.wordpress.com/), [Indian Institute of Science](https://www.iisc.ac.in).
 
+### :warning: Code is buggy :warning:
+
 ### Introduction:
 The robotic fish developed was used to study the aggregation and swarming characteristics of the Serpae tetra species of fish.
 
@@ -32,7 +34,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 2. Once the connections are made and checked (to prevent short circuiting underwater!), the batteries are connected to the battery headers provided in the circuit.
 
-3. The SHARP sensors are obstructed to check if the necessary commands are executed (in this case the C_MOVE() function would be executed).
+3. The SHARP sensors are obstructed to check if the necessary commands are executed (in this case the ```C_MOVE()``` function would be executed).
 
 4. Once the [Joystick.py](https://bitbucket.org/SarthakJShetty/fish/src/master/Code/Joystick_Code/Joystick_Code.py) has been executed, wait for 5 seconds as the [EEPROM_Code.cpp](https://bitbucket.org/SarthakJShetty/Fish/src/master/Code/EEPROM_Flush_Code) script executes and flushes the EEPROM on-board the UNO to prevent interferences from previous stored values.
 
