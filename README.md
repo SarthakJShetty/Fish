@@ -22,12 +22,10 @@ The robotic fish developed was used to study the aggregation and swarming charac
 - A pair of [9V batteries](https://www.amazon.com/AmazonBasics-Everyday-Alkaline-Batteries-8-Pack/dp/B00MH4QM1S) were used in series to provide the necessary electric power for the operation of the fish.
 
 ### Fritzing Diagram:
-
-![Fritzing Diagram](https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png "Fritzing Diagram")
+<img style="border: 2px solid black" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">
 
 ### SolidWorks Model:
-
-![SolidWorks Model Diagram](https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png "Solidworks Diagram")
+<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png" alt="SolidWorks Model">
 
 ### Working:
 1. The electrical connections are made as shown in the Fritzing diagram.
