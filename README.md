@@ -21,11 +21,11 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 ### Fritzing Diagram:
 
-![Fritzing Diagram](https://bitbucket.org/SarthakJShetty/fish/raw/e87941db83ac551b3040587c2f3e9a7f1bf15499/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png "Fritzing Diagram")
+![Fritzing Diagram](https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png "Fritzing Diagram")
 
 ### SolidWorks Model:
 
-![SolidWorks Model Diagram](https://bitbucket.org/SarthakJShetty/fish/raw/59a587fcd74f34fa84f2f81cb9e03ceb40a7eb4d/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png "Solidworks Diagram")
+![SolidWorks Model Diagram](https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png "Solidworks Diagram")
 
 ### Working:
 1. The electrical connections are made as shown in the Fritzing diagram.
