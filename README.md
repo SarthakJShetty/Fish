@@ -1,5 +1,6 @@
 # Open Source Robotic Fish
-This repository is dedicated to the developement of the predatory robotic fish, developed at the [Theoretical Ecology and Evolution Laboratory](https://teelabiisc.wordpress.com/ "TEE-Lab, IISc"), [Indian Institute of Science](https://www.iisc.ac.in "Indian Institute of Science, Bengaluru").
+
+This repository is dedicated to the development of the predatory robotic fish, developed at the [Theoretical Ecology and Evolution Laboratory](https://teelabiisc.wordpress.com/ "TEE-Lab, IISc"), [Indian Institute of Science](https://www.iisc.ac.in "Indian Institute of Science, Bengaluru").
 
 ### :warning: Code is buggy :warning:
 
@@ -9,7 +10,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 ### Construction:
 - The body of the Fish is made of extruded polystyrene. The [design](https://github.com/SarthakJShetty/fish/tree/master/Design%20Files/Mechanical_Design/Fish_Design/ "Mechanical Designs") was made in SolidWorks, and carved using a crafting blade.
 
- - The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org "pygame") library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html "pygame"). We have tried out a number of joysticks, such as the [Xbox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller "Xbox 360 controller"), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro "Logitech Extreme 3D Pro").
+ - The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org "pygame") library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html "pygame"). We have tried out a number of joysticks, such as the [XBox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller "Xbox 360 controller"), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro "Logitech Extreme 3D Pro").
 
  - The Fish is controlled through an Arduino UNO, which communicates with the computer running pygame through a [Bluetooth module](https://www.amazon.com/HiLetgo%C2%AE-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?ie=UTF8&qid=1530698951&sr=8-1-spons&keywords=hc05&psc=1 "HC-05 Bluetooth Module"), mounted on it's head.
 
@@ -32,7 +33,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
 
 ### Working:
- 1. The electrical connections are made as shown in the Fritzing diagram.
+ 1. The electrical connections are made as shown in the <a title="Fritzing Diagram" href="https://github.com/SarthakJShetty/Fish/master/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">Fritzing diagram</a>.
 
  2. Once the connections are made and checked (to prevent short circuiting underwater!), the batteries are connected to the battery headers provided in the circuit.
 
@@ -48,61 +49,13 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
  6. The Fish operates either through the controls of the user, through the joystick, or it continuously moves in an S-type fashion, until it encounters an obstacle, thereafter which it executes a C-type movement.
 
-### Progress Log:
-
-- <strong>Date:</strong> 28/05/2018
-	- Just wrote code.
-	- Yet to implement on Arduino.
- 	- Will be doing that tomorrow.
- 	- Need to add a README.
-
-- <strong>Date:</strong> 29/05/2018
- 	- Code now works with sensor.
- 	- Added a piece of code to convert volts to distance.
-
-- <strong>Date:</strong> 60/05/2018
- 	- Up<strong>dated</strong> Bluetooth Code.
- 	- Bluetooth now works over COM4 port.
- 	- ```println()``` statements look much cleaner now
-
-- <strong>Date:</strong> 31/05/2018
- 	- Added EEPROM flush. Not much of an improvement.
- 	- Bluetooth has not been integrated here.
-	- Bluetooth code has been introduced, albeit very buggy as of now.
-
-- <strong>Date:</strong> 08/05/2018
- 	- Joystick can be used to control the fish now. Attempting on a wired controller though.
- 	- Intereference. Need to upload a SLAVE communication.
-
-- <strong>Date:</strong> 09/06/2018
- 	- DualShock3 replaced with Xbox 360 Wireless knockoff controller.
- 	- Works much better now.
- 	- SLAVE protocol has been established. Works much better.
-
-- <strong>Date:</strong> 10/06/2018
- 	- BLuetooth module has been converted into a one-way system, i.e. slave communication
- 	- RX/TX can be connected simultaneously, no obstruction to communication from controller.
-
-- <strong>Date:</strong> 13/06/2018
- 	- Code has been successfully tested on fish.
- 	- This code has been converted into a .cpp libray, to make the Arduino code cleaner.
-
-- <strong>Date:</strong> 15/06/2018
- 	- The thermocol has ripped. Adhesive applied and trying to fix it.
- 	- Code seems to be working well. Angles seem to be too big though.
-
-
-- <strong>Date:</strong> 03/07/2018
-	- Embargo due to mechanical issues.
-	- A polythene wrapper has been used as a final layer for waterproofing the structure.
-	- The issue is with fit. Almost fixed it.
-	- Should have a great Fish by this weekend. Fingers crossed.
-	- Try to code a more harmonic motion of Fish body.
+### Build-log:
+You can check out the <a title="Build-log" href="https://github.com/SarthakJShetty/Fish/tree/master/build-log.md">build-log</a> for a detailed progress report.
 
 ### Known Issues:
 
-1. Occasionally, the Bluetooth module on-board losses communication link with the Bluetooth on the PC. When this happens, close the pygame dialog and rerun the Joystick_Code.py script to establish control once again (**this issue has now been resolved by connecting the Bluetooth module to a 3.3V voltage supply**).
+1. Occasionally, the Bluetooth module on-board losses communication link with the Bluetooth on the PC. When this happens, close the pygame dialog and rerun the Joystick_Code.py script to establish control once again (<strong>this issue has now been resolved by connecting the Bluetooth module to a 3.3V voltage supply.</strong>)
 
-2. The Arduino will reboot, if sufficient power is not provided. Thus, we suggest the use of LiPo batteries to provide a more reliable and lasting power source. We are currently using 12V, 2000mAh LiPo batteries.
+2. The Arduino will reboot, if sufficient power is not provided. Thus, we suggest the use of LiPo batteries to provide a more reliable and lasting power source. We are currently using <a title="12V LiPo battery" href="" target="_blank">12V, 2000mAh LiPo batteries</a> (testing this right now).
 
 3. Communication link between the UNO and the computer will not be active until the `EEPROM_Flush_Code.cpp` has been executed (approx 5 seconds), thereafter which the LED on the UNO associated with GPIO pin 13 will glow a bright orange (depending on the make of the Arduino board).
