@@ -54,3 +54,19 @@
 	- Movement seems to work well, even without harmonic motion integration.
 	- ```ICSP``` pins should not be used for power supply. ```V(in)``` pin solely supports 5V. ```V(in)``` should be used, along with corresponding ```GND``` pin.
 	- Looking forward to 3D printing some of the components.
+
+- <strong>Date:</strong> 14/07/2018
+	- Plastic has been bound.
+	- Compensations have been provided.
+	- Waiting for adhesive to dry up.
+
+- <strong>Date:</strong> 15/07/2018
+	- Rubber based adhesive used to fill the last remaining holes.
+	- Adhesive also used to coat the battery. Multiple times.
+	- Tail fin and fish design <a title="Tail fin" href="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png" target="_blank">updated</a>. Looks less like a kayaking paddle now.
+
+- <strong>Date:</strong> 16/07/2018
+	- Fish works great with plastic binding now.
+	- Movements are unforced. Feels smooth. Finally this works.
+	- Filled the last remaining slots and gaps in the plastic. Will cut out a cover for the Sharp sensor.
+	- 3D printing of fin underway. We're almost there.
