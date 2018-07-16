@@ -5,12 +5,12 @@ This repository is dedicated to the development of the predatory robotic fish, d
 ### :warning: Code is buggy :warning:
 
 ### Introduction:
-The robotic fish developed was used to study the aggregation and swarming characteristics of the <em>Serpae tetra</em> species of fish.
+The robotic fish developed was used to study the aggregation and swarming characteristics of the <em><a title="Serpae tetra" href="https://en.wikipedia.org/wiki/Serpae_tetra" target="_blank">Serpae tetra</a></em> species of fish.
 
 ### Construction:
-- The body of the Fish is made of extruded polystyrene. The [design](https://github.com/SarthakJShetty/fish/tree/master/Design%20Files/Mechanical_Design/Fish_Design/ "Mechanical Designs") was made in SolidWorks, and carved using a crafting blade.
+ - The body of the Fish is made of extruded polystyrene. The [design](https://github.com/SarthakJShetty/fish/tree/master/Design%20Files/Mechanical_Design/Fish_Design/ "Mechanical Designs") was made in SolidWorks, and carved using a crafting blade.
 
- - The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org "pygame") library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html "pygame"). We have tried out a number of joysticks, such as the [XBox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller "Xbox 360 controller"), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro "Logitech Extreme 3D Pro").
+ - The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org "pygame") library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html "pygame"). We have tried out a number of joysticks, such as the [XBox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller "XBox 360 controller"), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro "Logitech Extreme 3D Pro").
 
  - The Fish is controlled through an Arduino UNO, which communicates with the computer running pygame through a [Bluetooth module](https://www.amazon.com/HiLetgo%C2%AE-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?ie=UTF8&qid=1530698951&sr=8-1-spons&keywords=hc05&psc=1 "HC-05 Bluetooth Module"), mounted on it's head.
 
@@ -42,7 +42,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
  4. Once the [Joystick.py](https://github.com/SarthakJShetty/fish/tree/master/Code/Joystick_Code/Joystick_Code.py) has been executed, wait for 5 seconds as the [EEPROM_Code.cpp](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/EEPROM_Flush_Code.cpp) script executes and flushes the EEPROM on-board the UNO to prevent interferences from previous stored values.
 
  5. The Fish can be maneuvered as required using the left analog stick of the joystick. Three movements are possible:
-	- [Forward](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in an S-type movement 
+	- [Forward](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in an S-type movement.
 	- [Left](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left.
 	- [Right](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the right.
 	- [Obstacle Avoidance](https://github.com/SarthakJShetty/Fish/tree/master/Code/CPP_Code/Stable_Movement_Code.cpp)- The Fish moves in a C-type movement, deflecting towards the left. 
@@ -54,8 +54,8 @@ You can check out the <a title="Build-log" href="https://github.com/SarthakJShet
 
 ### Known Issues:
 
-1. Occasionally, the Bluetooth module on-board losses communication link with the Bluetooth on the PC. When this happens, close the pygame dialog and rerun the Joystick_Code.py script to establish control once again (<strong>this issue has now been resolved by connecting the Bluetooth module to a 3.3V voltage supply.</strong>)
+ 1. Occasionally, the Bluetooth module on-board losses communication link with the Bluetooth on the PC. When this happens, close the pygame dialog and rerun the Joystick_Code.py script to establish control once again (<strong>this issue has now been resolved by connecting the Bluetooth module to a 3.3V voltage supply.</strong>)
 
-2. The Arduino will reboot, if sufficient power is not provided. Thus, we suggest the use of LiPo batteries to provide a more reliable and lasting power source. We are currently using <a title="12V LiPo battery" href="" target="_blank">12V, 2000mAh LiPo batteries</a> (testing this right now).
+ 2. The Arduino will reboot, if sufficient power is not provided. Thus, we suggest the use of LiPo batteries to provide a more reliable and lasting power source. We are currently using <a title="12V LiPo battery" href="" target="_blank">12V, 2000mAh LiPo batteries</a> (testing this right now).
 
-3. Communication link between the UNO and the computer will not be active until the `EEPROM_Flush_Code.cpp` has been executed (approx 5 seconds), thereafter which the LED on the UNO associated with GPIO pin 13 will glow a bright orange (depending on the make of the Arduino board).
+ 3. Communication link between the UNO and the computer will not be active until the `EEPROM_Flush_Code.cpp` has been executed (approx 5 seconds), thereafter which the LED on the UNO associated with GPIO pin 13 will glow a bright orange (depending on the make of the Arduino board).
