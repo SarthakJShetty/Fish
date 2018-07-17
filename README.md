@@ -28,7 +28,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 <em><strong>Note:</strong> 3.7V LiPo is for representation purposes only.</em></figcaption>
 
 ### SolidWorks Model:
-<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Mechanical_Design/Fish_Design/Fish_Assembly.png" alt="SolidWorks Model">
+<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Mechanical_Design/Fish_Design/Fish_Assembly_Snapshot.png" alt="SolidWorks Model">
 <figcaption><strong>Fig 2.</strong><em> SolidWorks assembly of mechanical structure.</em></figcaption>
 
 
