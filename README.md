@@ -8,7 +8,7 @@ This repository is dedicated to the development of the predatory robotic fish, d
 The robotic fish developed was used to study the aggregation and swarming characteristics of the <em><a title="Serpae tetra" href="https://en.wikipedia.org/wiki/Serpae_tetra" target="_blank">Serpae tetra</a></em> species of fish.
 
 ### Construction:
- - The body of the Fish is made of extruded polystyrene. The [design](https://github.com/SarthakJShetty/fish/tree/master/Design%20Files/Mechanical_Design/Fish_Design/ "Mechanical Designs") was made in SolidWorks, and carved using a crafting blade.
+ - The body of the Fish is made of extruded polystyrene. The [design](https://github.com/SarthakJShetty/fish/tree/master/Design_Files/Mechanical_Design/Fish_Design/ "Mechanical Designs") was made in SolidWorks, and carved using a crafting blade.
 
  - The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org "pygame") library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html "pygame"). We have tried out a number of joysticks, such as the [XBox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller "XBox 360 controller"), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro "Logitech Extreme 3D Pro").
 
@@ -23,17 +23,17 @@ The robotic fish developed was used to study the aggregation and swarming charac
  - A pair of [9V batteries](https://www.amazon.com/AmazonBasics-Everyday-Alkaline-Batteries-8-Pack/dp/B00MH4QM1S "9V Batteries") were used in series to provide the necessary electric power for the operation of the fish.
 
 ### Fritzing Diagram:
-<img style="border: 2px solid black" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">
+<img style="border: 2px solid black" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">
 <figcaption><strong>Fig 1.</strong><em> Fritzing diagram of electrical wiring.</em>
 <em><strong>Note:</strong> 3.7V LiPo is for representation purposes only.</em></figcaption>
 
 ### SolidWorks Model:
-<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design%20Files/Mechanical_Design/Fish_Design/Fish_Assembly.png" alt="SolidWorks Model">
+<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Mechanical_Design/Fish_Design/Fish_Assembly.png" alt="SolidWorks Model">
 <figcaption><strong>Fig 2.</strong><em> SolidWorks assembly of mechanical structure.</em></figcaption>
 
 
 ### Working:
- 1. The electrical connections are made as shown in the <a title="Fritzing Diagram" href="https://github.com/SarthakJShetty/Fish/master/Design%20Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">Fritzing diagram</a>.
+ 1. The electrical connections are made as shown in the <a title="Fritzing Diagram" href="https://github.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">Fritzing diagram</a>.
 
  2. Once the connections are made and checked (to prevent short circuiting underwater!), the batteries are connected to the battery headers provided in the circuit.
 
