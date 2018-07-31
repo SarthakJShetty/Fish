@@ -8,13 +8,13 @@ This repository is dedicated to the development of the predatory robotic fish, d
 The robotic fish developed was used to study the aggregation and swarming characteristics of the <em><a title="Serpae tetra" href="https://en.wikipedia.org/wiki/Serpae_tetra" target="_blank">Serpae tetra</a></em> species of fish.
 
 ### Construction:
- - The body of the Fish is made of extruded polystyrene. The [design](https://github.com/SarthakJShetty/fish/tree/master/Design_Files/Mechanical_Design/Fish_Design/ "Mechanical Designs") was made in SolidWorks, and carved using a crafting blade.
+ - The body of the Fish is made of extruded polystyrene (thermocol). The [design](https://github.com/SarthakJShetty/Fish/tree/master/Design_Files/Mechanical_Design/Structure_Design "Mechanical Designs") was made in SolidWorks, and carved using a crafting blade.
 
  - The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org "pygame") library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html "pygame"). We have tried out a number of joysticks, such as the [XBox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller "XBox 360 controller"), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro "Logitech Extreme 3D Pro").
 
  - The Fish is controlled through an Arduino UNO, which communicates with the computer running pygame through a [Bluetooth module](https://www.amazon.com/HiLetgo%C2%AE-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?ie=UTF8&qid=1530698951&sr=8-1-spons&keywords=hc05&psc=1 "HC-05 Bluetooth Module"), mounted on it's head.
 
- - A [SHARP Distance Sensor GP2Y0A21YK0F](https://www.pololu.com/category/79/sharp-distance-sensors "Sharp Distance Sensor") was used to judge the distance between the fish and obstacles up ahead.
+ - A [SHARP Distance Sensor GP2Y0A21YK0F](https://www.pololu.com/category/79/sharp-distance-sensors "Sharp Distance Sensor GP2Y0A21YK0F") was used to judge the distance between the fish and obstacles up ahead.
 
  - The Fish was encased in a layer of polythene to ensure waterproofing while operating underwater. Specifically, the joints between successive links was encased in a skin-like layer of polythene.
 
