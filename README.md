@@ -1,3 +1,4 @@
+
 # Open Source Robotic Fish
 
 This repository is dedicated to the development of the predatory robotic fish, developed at the [Theoretical Ecology and Evolution Laboratory](https://teelabiisc.wordpress.com/ "TEE-Lab, IISc"), [Indian Institute of Science](https://www.iisc.ac.in "Indian Institute of Science, Bengaluru").
@@ -12,7 +13,7 @@ The robotic fish developed was used to study the aggregation and swarming charac
 
  - The Fish is maneuvered using a joystick controller through the [pygame](Pygame.org "pygame") library for Python. A list of supported controllers is given [here](https://www.pygame.org/docs/ref/joystick.html "pygame"). We have tried out a number of joysticks, such as the [XBox 360 controller](https://www.amazon.com/Xbox-360-Wireless-Controller-Packaging-Black/dp/B073WJCQGT/ref=sr_1_4?ie=UTF8&qid=1530160595&sr=8-4&keywords=xbox+360+controller "XBox 360 controller"), and the [Logitech Extreme 3D Pro Gamepad](https://www.amazon.com/Extreme-3D-Pro-Joystick-Windows/dp/B00009OY9U/ref=sr_1_1?s=videogames&ie=UTF8&qid=1530160648&sr=1-1&keywords=logitech+extreme+pro "Logitech Extreme 3D Pro").
 
- - The Fish is controlled through an Arduino UNO, which communicates with the computer running pygame through a [Bluetooth module](https://www.amazon.com/HiLetgo%C2%AE-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?ie=UTF8&qid=1530698951&sr=8-1-spons&keywords=hc05&psc=1 "HC-05 Bluetooth Module"), mounted on it's head.
+ - The Fish is controlled through an Arduino UNO, which communicates with the computer running ```pygame``` through a [Bluetooth module](https://www.amazon.com/HiLetgo%C2%AE-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?ie=UTF8&qid=1530698951&sr=8-1-spons&keywords=hc05&psc=1 "HC-05 Bluetooth Module"), mounted on it's head.
 
  - A [SHARP Distance Sensor GP2Y0A21YK0F](https://www.pololu.com/category/79/sharp-distance-sensors "Sharp Distance Sensor GP2Y0A21YK0F") was used to judge the distance between the fish and obstacles up ahead.
 
@@ -23,17 +24,17 @@ The robotic fish developed was used to study the aggregation and swarming charac
  - A pair of [9V batteries](https://www.amazon.com/AmazonBasics-Everyday-Alkaline-Batteries-8-Pack/dp/B00MH4QM1S "9V Batteries") were used in series to provide the necessary electric power for the operation of the fish.
 
 ### Fritzing Diagram:
-<img style="border: 2px solid black" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">
-<figcaption><strong>Fig 1.</strong><em> Fritzing diagram of electrical wiring.</em>
+<p align="center"><img style="text-align: center; border: 2px solid black" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram"></p>
+<figcaption align="center"><strong>Fig 1.</strong><em> Fritzing diagram of electrical wiring.</em>
 <em><strong>Note:</strong> 3.7V LiPo is for representation purposes only.</em></figcaption>
 
 ### SolidWorks Model:
-<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Mechanical_Design/Structure_Design/Fish_Assembly_Snapshot.png" alt="SolidWorks Model">
-<figcaption><strong>Fig 2.</strong><em> SolidWorks assembly of mechanical structure.</em></figcaption>
+<p align="center"><img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Mechanical_Design/Structure_Design/Fish_Assembly_Snapshot.png" alt="SolidWorks Model"></p>
+<figcaption align="center"><strong>Fig 2.</strong><em> SolidWorks assembly of mechanical structure.</em></figcaption>
 
 ### Command Flowchart:
-<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Circuit_Flowchart.png" alt="Command flowchart">
-<figcaption><strong>Fig 3.</strong><em> Flowchart of commands.</em></figcaption>
+<p align="center"><img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Circuit_Flowchart.png" alt="Command flowchart"></p>
+<figcaption align="center"><strong>Fig 3.</strong><em> Flowchart of commands.</em></figcaption>
 
 ### Working:
  1. The electrical connections are made as shown in the <a title="Fritzing Diagram" href="https://github.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">Fritzing diagram</a>.
