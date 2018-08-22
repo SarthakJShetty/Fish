@@ -31,6 +31,9 @@ The robotic fish developed was used to study the aggregation and swarming charac
 <img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Mechanical_Design/Structure_Design/Fish_Assembly_Snapshot.png" alt="SolidWorks Model">
 <figcaption><strong>Fig 2.</strong><em> SolidWorks assembly of mechanical structure.</em></figcaption>
 
+### Command Flowchart:
+<img style="border:2px solid black;" src="https://raw.githubusercontent.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Circuit_Flowchart.png" alt="Command flowchart">
+<figcaption><strong>Fig 3.</strong><em> Flowchart of commands.</em></figcaption>
 
 ### Working:
  1. The electrical connections are made as shown in the <a title="Fritzing Diagram" href="https://github.com/SarthakJShetty/Fish/master/Design_Files/Electrical_Design/Circuit_Design/Fish_Circuitry.png" alt="Fritzing Diagram">Fritzing diagram</a>.
