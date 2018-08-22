@@ -79,3 +79,10 @@
 	- Had a buoyancy debacle. Almost sorted.
 	- If waterproofing is fixed, then we can begin the actual testing.
 	- Godspeed.
+
+- <strong>Date:</strong> 22/08/2018
+	- Iterated through at least 8 skins designs for waterproofing.
+	- Currently testing the 9th one. This should work.
+	- To vary buoyancy, cast iron blocks of different weights can be used.
+	- Currently using a 660 grams one that provides a above surface height of about 8mm.
+	- Just about right for the antennae to pop up from the surface.
