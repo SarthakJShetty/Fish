@@ -78,7 +78,6 @@
 	- Fin has been 3D printed. Works great.
 	- Had a buoyancy debacle. Almost sorted.
 	- If waterproofing is fixed, then we can begin the actual testing.
-	- Godspeed.
 
 - <strong>Date:</strong> 22/08/2018
 	- Iterated through at least 8 skins designs for waterproofing.
@@ -86,3 +85,9 @@
 	- To vary buoyancy, cast iron blocks of different weights can be used.
 	- Currently using a 660 grams one that provides a above surface height of about 8mm.
 	- Just about right for the antennae to pop up from the surface.
+
+<strong>Date:</strong> 17/09/2018
+	- Skin is mostly impenetrable and sealed.
+	- An average height of 3 cm penetrates the skin.
+	- Weight has been optimized to 498gm. Buoyancy is just right.
+	- Will test with air-tight enclosure for switch next. Should be ready by Thursday.
